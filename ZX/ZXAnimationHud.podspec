@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ZXAnimationHud"
   spec.version      = "1.0.0"
-  spec.summary      = "Swift原生动效提示框"
+  spec.summary      = "Swift animation prompt box"
   spec.swift_version = "4.0"
 
   # This description is used to generate tags and improve search results.
@@ -25,9 +25,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-      "提供三种不同的提示框，提供生动的效果，简单的用法，方便自定义"
-                   DESC
+  spec.description  = "Provide three different prompt box, provide vivid effect, simple usage, easy to customize"
 
   spec.homepage     = "https://www.jianshu.com/u/22c38225760c"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -92,8 +90,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ZXAnimationHud", "ZXHud/ZXAnimationHud/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "ZXAnimationHud", "ZXHud/ZXAnimationHud/*.swift"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
